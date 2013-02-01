@@ -27,7 +27,7 @@ String directory  = newDir;
 File f = new File(directory);
         File[] files = f.listFiles();
            for(int i=0;i<files.length;i++){
-             if(files[i].isDirectory()){
+        	   if(files[i].isDirectory()){
         		   String name=files[i].getName();
                    String path=files[i].getPath(); 
                    %>
@@ -52,6 +52,8 @@ File f = new File(directory);
 </div>
 </body>
 </html>
+
+
 
 
 
