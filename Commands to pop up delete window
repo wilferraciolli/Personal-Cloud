@@ -1,0 +1,27 @@
+<script language = JAVASCRIPT> //This function is to pop out box asking the user if he wants to delete the file
+function Delete(){
+    if(confirm("Are you sure you want to delete this file?")) // this will pop up confirmation box and if yes is clicked it call servlet else return to page
+     {
+       window.location="Delete.jsp"; 
+     }else{
+       return false;
+    }
+   return true;
+ }
+</script>
+
+
+
+
+ <td> <a href="Delete.jsp?list=<%=path%>" onclick="if (confirm('Are you sure you want to delete?')); else return false;"><center><img src="Pictures/delete.png"></center></a></td></tr>
+              
+
+
+
+<td> <a href="Delete.jsp?list=<%=path%>" onclick="if (confirm('Are you sure you want to delete?')); else return false;"><center><img src="Pictures/delete.png"></center></a></td></tr>
+          	
+
+
+
+
+
